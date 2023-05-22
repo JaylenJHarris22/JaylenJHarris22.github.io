@@ -1,7 +1,7 @@
 export default function AboutMeSection (){
 return(
-    <div className='w-full bg-black h-full min-h-screen text-white'>
-        <div className='my-auto grid grid-cols-1 md:grid-cols-5'>
+    <div className='w-full bg-black h-full min-h-screen text-white h-full flex flex-col justify-center'>
+        <div className='grid grid-cols-1 md:grid-cols-5'>
             <div className='col-span-2'></div>
             <div className='col-span-3 flex flex-col content-center'>
                 <h3 className='text-green-400 text-2xl font-semibold'>About Me</h3>
